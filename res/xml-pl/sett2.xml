@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+   <PreferenceCategory android:title="Informacje">
+        <CheckBoxPreference
+                android:key="SysApp"
+                android:title="Aplikacja systemowa ?"
+                android:defaultValue="false"
+                android:summary="Czy aplikacja jest w /system/app ? Wymagane dla zmiany APN w Androidzie 4.x i odczytu APN w Androidzie 4.2 i poźniejszym." android:enabled="true" />
+	<Preference
+                android:title="Wesprzyj autora"
+                android:summary="Kliknij aby otworzyć stronę WWW z adresami PayPal/Bitcoin i kontaktem."
+                android:key="Czyszczenie" />
+	<Preference
+                android:title="Wyślij raport"
+                android:summary="Kliknij aby otworzyć program pocztowy z adresem autora i aktualnymi danymi."
+                android:key="Czyszczenie2" />
+    </PreferenceCategory>
+  
+   <PreferenceCategory android:title="Ustaw dane APN">
+        <CheckBoxPreference
+                android:key="Auto"
+                android:title="Zmiana APN po starcie ?"
+                android:defaultValue="false"
+                android:summary="Wywołanie 'Ustaw dane APN' raz po starcie urządzenia i wpisaniu PIN. Wymaga aplikacji systemowej w Androidzie 4.x." android:enabled="true" />
+        <CheckBoxPreference
+                android:key="ApndroidLTE"
+                android:title="Internet wyłączony gdy sieć nie jest LTE"
+                android:defaultValue="false"
+                android:summary="Monitorowanie zmian sieci i dodanie 'apndroid' na końcu APN do Internetu kiedy sieć nie jest LTE. Wymaga aplikacji systemowej w Androidzie 4.x." android:enabled="true" />
+        <CheckBoxPreference
+                android:key="Apndroid"
+                android:title="Internet wyłączony ?"
+                android:defaultValue="false"
+                android:enabled="true" />                
+    </PreferenceCategory>
+   <PreferenceCategory android:title="Baza danych APN">
+        <CheckBoxPreference
+                android:key="ExtFile"
+                android:title="Używanie zewnętrznego pliku ?"
+                android:defaultValue="false"
+                android:summary="Używanie zewnętrznego pliku zamiast wewnętrznej bazy." android:enabled="true" />
+	<Preference
+                android:title="Zewnętrzny plik"
+                android:key="ExtFileName0" />
+	<Preference
+                android:title="Eksport wewnętrznej bazy"
+                android:summary="Eksport wewnętrznej bazy do pliku."
+                android:key="ExtFileExport" />
+	<Preference
+                android:title="Eksport bazy urządzenia"
+                android:summary="Eksport bazy urządzenia do pliku. Wymaga aplikacji systemowej w Androidzie 4.2 i poźniejszym"
+                android:key="ExtFileExport2" />
+ 
+    </PreferenceCategory>
+
+    
+  
+</PreferenceScreen>

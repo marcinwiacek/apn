@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!-- op should be put as last. Lack can result in unknown behaviour. -->
+<!-- APN 2.1 default internal database -->
+<apns version="8">
+  <apn carrier="Plus Internet"
+      mcc="260"
+      mnc="01"
+      apn="internet"
+      type="default,supl"
+      op=""
+  />
+
+  <apn carrier="Plus MMS"
+      mcc="260"
+      mnc="01"
+      apn="mms"
+      mmsc="http://mms.plusgsm.pl:8002"
+      mmsproxy="212.2.96.16"
+      mmsport="8080"
+      type="mms"
+      authtype="0"
+      op=""
+  />
+
+  <apn carrier="FM GROUP MOBILE Internet"
+      mcc="260"
+      mnc="01"
+      apn="www.fmgmobile.pl"
+      type="default,supl"
+      op="FM GROUP MOBILE"
+  />
+
+  <apn carrier="FM GROUP MOBILE MMS"
+      mcc="260"
+      mnc="01"
+      apn="mms"
+      mmsc="http://mms.fmgmobile.pl:8002"
+      mmsproxy="212.2.96.16"
+      mmsport="8080"
+      type="mms"
+      authtype="0"
+      op="FM GROUP MOBILE"
+  />
+  
+  <apn carrier="mBank Internet"
+      mcc="260"
+      mnc="01"
+      apn="www.mobile.pl"
+      type="default,supl"
+      op="mBank mobile"
+  />
+
+  <apn carrier="mBank MMS"
+      mcc="260"
+      mnc="01"
+      apn="mms.mobile.pl"
+      mmsc="http://mms.mobile.pl:8002"
+      mmsproxy="212.002.096.016"
+      mmsport="8080"
+      type="mms"
+      authtype="0"
+      op="mBank mobile"
+  />
+
+  <apn carrier="Manta Mobile Internet"
+      mcc="260"
+      mnc="01"
+      apn="freedata.pl"
+      type="default,supl"
+      op="Manta Mobile"
+  />
+
+  <apn 
+      carrier="T-Mobile.pl Internet"
+      mcc="260"
+      mnc="02"
+      apn="erainternet"
+      authtype="0"
+      type="default,supl"
+	op="" op="T-Mobile.pl"
+  />
+
+  <apn 
+      carrier="T-Mobile.pl MMS"
+      mcc="260"
+      mnc="02"
+      apn="eramms"
+      mmsc="http://mms.era.pl/servlets/mms"
+      mmsproxy="213.158.194.226"
+      mmsport="8080"
+      authtype="0"
+      type="mms"
+	op="" op="T-Mobile.pl"
+  />
+
+  <apn 
+      carrier="heyah Internet"
+      mcc="260"
+      mnc="02"
+      apn="heyah.pl"
+      user="heyah"
+      password="heyah"      
+      authtype="0"
+      type="default,supl"
+	op="heyah"
+  />
+
+  <apn 
+      carrier="heyah MMS"
+      mcc="260"
+      mnc="02"
+      apn="heyahmms"
+      user="heyah"
+      password="heyah"      
+      mmsc="http://mms.heyah.pl/servlets/mms"
+      mmsproxy="213.158.194.226"
+      mmsport="8080"
+      authtype="0"
+      type="mms"
+	op="heyah"
+  />
+
+  <apn 
+      carrier="Orange Internet"
+      mcc="260"
+      mnc="03"
+      apn="internet"
+      user="internet"
+      password="internet"      
+      authtype="1"
+      type="default,supl"
+      op="MILEGO DNIA" op="POP" op="Orange"
+
+  />
+
+  <apn 
+      carrier="Orange MMS"
+      mcc="260"
+      mnc="03"
+      apn="mms"
+      user="mms"
+      password="mms"
+      mmsc="http://mms.orange.pl"
+      mmsproxy="192.168.6.104"
+      mmsport="8080"
+      authtype="1"
+      type="mms"
+      op="MILEGO DNIA" op="POP" op="Orange"
+
+  />
+
+
+  <apn 
+      carrier="INEA Internet"
+      mcc="260"
+      mnc="03"
+      apn="telogic.internet"
+      user="internet"      
+      authtype="1"
+      type="default,supl"
+      op="INEA"      
+  />
+
+  <apn 
+      carrier="Play/Virgin/RedBull Internet"
+      mcc="260"
+      mnc="06"
+      apn="internet"
+      authtype="0"
+      type="default,supl"
+      op="" op="PLAY" op="Red Bull MOBILE" op="Virgin mobile"
+  />
+
+  <apn 
+      carrier="Play/Virgin/RedBull MMS"
+      mcc="260"
+      mnc="06"
+      apn="mms"
+      mmsc="http://10.10.28.164/mms/wapenc"
+      mmsproxy="10.10.25.5"
+      mmsport="8080"
+      authtype="0"
+      type="mms"
+      op="" op="PLAY" op="Red Bull MOBILE" op="Virgin mobile"
+  />
+
+  <apn 
+      carrier="LycaMobile Internet"
+      mcc="260"
+      mnc="09"
+      apn="data.lycamobile.pl"
+      user="lmpl"
+      password="plus"
+      type="supl,default"
+	op="Lycamobile"
+  />
+
+  <apn 
+      carrier="Aero2 Internet"
+      mcc="260"
+      mnc="17"
+      apn="darmowy"
+      authtype="0"
+      type="supl,default"
+	op="" op="Aero2"
+  />
+
+</apns>

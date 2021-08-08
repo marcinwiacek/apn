@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dodaj">Dodaj dane APN</string>
+    <string name="ustaw">Ustaw dane APN</string>
+    <string name="raz">Sieć </string>
+    <string name="dwa">Operator w APN </string>
+</resources>

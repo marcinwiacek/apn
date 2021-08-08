@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+   <PreferenceCategory android:title="Info">
+        <CheckBoxPreference
+                android:key="SysApp"
+                android:title="System application ?"
+                android:defaultValue="false"
+                android:summary="Is application in the /system/app ? Required for setting APN in Android 4.x and getting APN in Android 4.2 and later." android:enabled="true" />
+	<Preference
+                android:title="Donate author"
+                android:summary="Click to open PayPal/Bitcoin donation and contact WWW page."
+                android:key="Czyszczenie" />
+	<Preference
+                android:title="Send report"
+                android:summary="Click to open mail program with author's address and current data."
+                android:key="Czyszczenie2" />
+    </PreferenceCategory>
+  
+   <PreferenceCategory android:title="Set APN data">
+        <CheckBoxPreference
+                android:key="Auto"
+                android:title="Change APN after start ?"
+                android:defaultValue="false"
+                android:summary="Running 'Set APN data' once after starting device and entering PIN. Requires system application in Android 4.x." android:enabled="true" />
+        <CheckBoxPreference
+                android:key="ApndroidLTE"
+                android:title="Internet off when not on LTE"
+                android:defaultValue="false"
+                android:summary="Monitoring network changes and adding 'apndroid' on the Internet APN end when network type is not LTE. Requires system application in Android 4.x." android:enabled="true" />
+        <CheckBoxPreference
+                android:key="Apndroid"
+                android:title="Internet off"
+                android:defaultValue="false"
+                android:enabled="true" />
+
+    </PreferenceCategory>
+   <PreferenceCategory android:title="APN database">
+        <CheckBoxPreference
+                android:key="ExtFile"
+                android:title="Use external file ?"
+                android:defaultValue="false"
+                android:summary="Using external file instead of internal database." android:enabled="true" />
+	<Preference
+                android:title="External file"
+                android:key="ExtFileName0" />
+	<Preference
+                android:title="Export internal database"
+                android:summary="Export internal database to file."
+                android:key="ExtFileExport" />
+
+	<Preference
+                android:title="Export device database"
+                android:summary="Export device database to file. Requires system application in Android 4.2 and later"
+                android:key="ExtFileExport2" />
+ 
+    </PreferenceCategory>
+
+    
+  
+</PreferenceScreen>
